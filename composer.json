@@ -1,0 +1,26 @@
+{
+    "name": "pmc/gigafactory",
+    "description": "A factory of factories which assists in making modular applications",
+    
+    "authors": [
+        {
+            "name": "Gargoyle",
+            "email": "g@rgoyle.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Pmc\\GigaFactory\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { 
+            "Pmc\\GigaFactory\\Tests\\": "tests/" }
+    },
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}

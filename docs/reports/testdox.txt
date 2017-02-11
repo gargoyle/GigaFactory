@@ -1,0 +1,6 @@
+Pmc\Gigafactory\Tests\ClassNameResolver
+ [x] Resolves names without prefix or suffix 
+ [x] Resolves names with prefix 
+ [x] Resolves names with suffix 
+ [x] Resolves names with prefix and suffix 
+

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1486814245">
+  <project timestamp="1486814245">
+    <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_GigaFactory/src/Creator.php">
+      <metrics loc="12" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="Pmc\GigaFactory\Exception">
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_GigaFactory/src/Exception/FactoryAlreadyRegisteredException.php">
+        <class name="FactoryAlreadyRegisteredException" namespace="Pmc\GigaFactory\Exception">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="14" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_GigaFactory/src/Exception/FactoryNotFoundException.php">
+        <class name="FactoryNotFoundException" namespace="Pmc\GigaFactory\Exception">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="13" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Pmc\GigaFactory">
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_GigaFactory/src/GigaFactory.php">
+        <class name="GigaFactory" namespace="Pmc\GigaFactory">
+          <metrics complexity="6" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="17" coveredelements="0"/>
+        </class>
+        <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="28" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="32" type="method" name="addFactory" visibility="public" complexity="3" crap="12" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="36" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="38" type="stmt" count="0"/>
+        <line num="42" type="stmt" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="46" type="method" name="create" visibility="public" complexity="2" crap="6" count="0"/>
+        <line num="48" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <metrics loc="56" ncloc="44" classes="1" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="0" elements="17" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Pmc\GigaFactory\Resolver">
+      <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_GigaFactory/src/Resolver/ClassNameResolver.php">
+        <class name="ClassNameResolver" namespace="Pmc\GigaFactory\Resolver">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+        </class>
+        <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="16"/>
+        <line num="19" type="stmt" count="16"/>
+        <line num="20" type="stmt" count="16"/>
+        <line num="21" type="stmt" count="16"/>
+        <line num="23" type="method" name="resolve" visibility="public" complexity="2" crap="2" count="16"/>
+        <line num="25" type="stmt" count="16"/>
+        <line num="26" type="stmt" count="16"/>
+        <line num="27" type="stmt" count="16"/>
+        <line num="28" type="stmt" count="16"/>
+        <line num="30" type="stmt" count="16"/>
+        <line num="32" type="stmt" count="16"/>
+        <metrics loc="35" ncloc="28" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="11" coveredelements="11"/>
+      </file>
+    </package>
+    <file name="/Users/paul/Code/Projects/PMC_Networks/PMC_GigaFactory/src/Resolver/Resolver.php">
+      <metrics loc="8" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="6" loc="138" ncloc="105" classes="2" methods="5" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="9" elements="28" coveredelements="11"/>
+  </project>
+</coverage>
