@@ -2,6 +2,11 @@
 
 namespace Pmc\GigaFactory;
 
+use Pmc\GigaFactory\ {
+    Exception\FactoryAlreadyRegisteredException,
+    Exception\FactoryNotFoundException,
+    Resolver\Resolver
+};
 use Psr\Log\LoggerInterface;
 
 /**
@@ -17,7 +22,7 @@ class GigaFactory
 {
 
     /**
-     * @var Resolver\Resolver
+     * @var Resolver
      */
     private $resolver;
 
@@ -31,7 +36,7 @@ class GigaFactory
      */
     private $creatables;
 
-    public function __construct(Resolver\Resolver $resolver, LoggerInterface $logger = null)
+    public function __construct(Resolver $resolver, LoggerInterface $logger = null)
     {
         $this->logger = $logger;
         $this->creatables = [];
