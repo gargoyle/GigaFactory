@@ -16,7 +16,7 @@ use Psr\Log\LoggerInterface;
  * The method that will be called on the registered factories is discovered by way
  * of a class implementing the Resolver interface.
  *
- * @author Paul Court <emails@paulcourt.co.uk>
+ * @author Gargoyle <g@rgoyle.com>
  */
 class GigaFactory
 {

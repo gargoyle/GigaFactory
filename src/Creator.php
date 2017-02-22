@@ -3,7 +3,7 @@
 namespace Pmc\GigaFactory;
 
 /**
- * @author Paul Court <emails@paulcourt.co.uk>
+ * @author Gargoyle <g@rgoyle.com>
  */
 interface Creator
 {

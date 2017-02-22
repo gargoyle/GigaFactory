@@ -7,7 +7,7 @@ namespace Pmc\GigaFactory\Resolver;
  * 
  * Eg: \Some\Namespace\Foo\Bar resolves to <prefix>Bar<Suffix>
  *
- * @author Paul Court <emails@paulcourt.co.uk>
+ * @author Gargoyle <g@rgoyle.com>
  */
 class ClassNameResolver implements Resolver
 {

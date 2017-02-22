@@ -5,7 +5,7 @@ namespace Pmc\GigaFactory\Resolver;
 /**
  * Simply resolves to a fixed value.
  *
- * @author Paul Court <emails@paulcourt.co.uk>
+ * @author Gargoyle <g@rgoyle.com>
  */
 class FixedResolver implements Resolver
 {
