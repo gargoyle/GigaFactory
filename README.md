@@ -14,11 +14,6 @@ Event Source (ES) based system, I wanted a single entry point where I could crea
 the required Command or Query object from only a class name and a `$data` array of 
 parameters.
 
-## Limitations
-
-Although the name resolver allows flexibility in the choice of method name to call
-inside your factory, the method signature must always be `someMethodName($className, $dataArray)`.
-
 ## Example
 
 TBC
