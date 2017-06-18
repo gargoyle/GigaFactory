@@ -8,4 +8,5 @@ namespace Pmc\GigaFactory;
 interface Creator
 {
     public function getCreatableList(): array;
+    public function create(array $data);
 }
