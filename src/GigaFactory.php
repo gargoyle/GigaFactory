@@ -4,6 +4,7 @@ namespace Pmc\GigaFactory;
 
 use Pmc\GigaFactory\Exception\FactoryAlreadyRegisteredException;
 use Pmc\GigaFactory\Exception\FactoryNotFoundException;
+use Pmc\ObjectLib\ParameterBag;
 use Psr\Log\LoggerInterface;
 
 /**
@@ -46,15 +47,17 @@ class GigaFactory
         }
     }
 
-    public function create(string $className, array $data)
+    public function create(ParameterBag $params)
     {
+        $params->require(['className']);
+        $className = $params->get('className');
         if (!isset($this->creatables[$className])) {
             throw new FactoryNotFoundException(sprintf(
                     "No factory registered to create %s objects",
                     $className));
         }
 
-        return $this->creatables[$className]->create($data);
+        return $this->creatables[$className]->create($params);
     }
 
 }

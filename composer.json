@@ -18,7 +18,8 @@
             "Pmc\\GigaFactory\\Tests\\": "tests/" }
     },
     "require": {
-        "php": "^7.1"
+        "php": "^7.1",
+        "pmc/objectlib": ">=0.8.1 <2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
